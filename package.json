@@ -1,6 +1,6 @@
 {
   "name": "conv-ai-react-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/conv-ai-plugin.cjs.js",
   "module": "dist/conv-ai-plugin.es.js",
@@ -36,6 +36,7 @@
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "^5.9.2",
-    "vite": "^7.1.0"
+    "vite": "^7.1.0",
+    "vite-plugin-dts": "^4.5.4"
   }
 }
