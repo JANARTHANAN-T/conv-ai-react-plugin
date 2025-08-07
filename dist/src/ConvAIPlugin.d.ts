@@ -1,6 +1,6 @@
 export interface ConvAIProps {
     agentId: string;
-    buttonPosition?: string;
+    buttonPosition?: 'top-left' | 'middle-left' | 'bottom-left' | 'top-middle' | 'center' | 'bottom-middle' | 'top-right' | 'middle-right' | 'bottom-right';
     theme?: {
         primaryColor?: string;
         secondaryColor?: string;

@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 
 export interface ConvAIProps {
   agentId: string;
-  buttonPosition?: string;
+  buttonPosition?: 'top-left' | 'middle-left' | 'bottom-left' | 'top-middle' | 'center' | 'bottom-middle' | 'top-right' | 'middle-right' | 'bottom-right';
   theme?: {
     primaryColor?: string;
     secondaryColor?: string;
@@ -22,7 +22,7 @@ export const ConvAIPlugin = ({ agentId, buttonPosition = 'bottom-right', theme =
 
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = "https://cdn.jsdelivr.net/gh/JANARTHANAN-T/conv-ai-plugin@0.0.4/conv-ai-plugin.min.js";
+    script.src = "https://cdn.jsdelivr.net/gh/JANARTHANAN-T/conv-ai-plugin@0.0.5/conv-ai-plugin.min.js";
     script.async = true;
     script.onload = () => {
       if (window.ConvAIPlugin) {
