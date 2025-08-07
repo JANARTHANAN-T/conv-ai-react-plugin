@@ -1,0 +1,1 @@
+export { ConvAIPlugin } from './src/ConvAIPlugin';
