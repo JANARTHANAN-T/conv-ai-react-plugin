@@ -22,7 +22,7 @@ export const ConvAIPlugin = ({ agentId, buttonPosition = 'bottom-right', theme =
 
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = "https://cdn.jsdelivr.net/gh/JANARTHANAN-T/conv-ai-plugin@0.0.5/conv-ai-plugin.min.js";
+    script.src = "https://cdn.jsdelivr.net/gh/JANARTHANAN-T/conv-ai-plugin@0.0.6/conv-ai-plugin.min.js";
     script.async = true;
     script.onload = () => {
       if (window.ConvAIPlugin) {

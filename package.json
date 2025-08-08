@@ -1,6 +1,6 @@
 {
   "name": "conv-ai-react-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/conv-ai-plugin.cjs.js",
   "module": "dist/conv-ai-plugin.es.js",
